@@ -1,0 +1,138 @@
+!SESSION 2022-01-26 18:14:45.843 -----------------------------------------------
+eclipse.buildId=4.22.0.I20211124-1800
+java.version=17.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=vi_VN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2022-01-26 18:15:34.034
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-26 18:15:34.034
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5f20b6fe,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@31880efa,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-01-26 18:15:34.034
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@79295932,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2cadcff6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-01-26 18:15:47.237
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\tient'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2022-01-26 18:19:10.393
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2022-01-26 18:19:10.394
+!MESSAGE session context was:(profile=E__Eclip_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-01-26 18:19:10.394
+!MESSAGE Error while reading from repository: https://download.eclipse.org/windowbuilder/lastgoodbuild/plugins/org.eclipse.wb.core_1.10.1.202201250914.jar.
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-01-26 18:19:10.394
+!MESSAGE Error while reading from repository: https://download.eclipse.org/windowbuilder/lastgoodbuild/plugins/org.eclipse.wb.core.databinding_1.9.1.202201250914.jar.
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-01-26 18:19:10.394
+!MESSAGE Error while reading from repository: https://download.eclipse.org/windowbuilder/lastgoodbuild/features/org.eclipse.wb.core.feature_1.9.7.202201250914.jar.
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-01-26 18:19:10.394
+!MESSAGE Error while reading from repository: https://download.eclipse.org/windowbuilder/lastgoodbuild/plugins/org.eclipse.wb.core.java_1.9.2.202201250914.jar.
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-01-26 18:19:10.394
+!MESSAGE Error while reading from repository: https://download.eclipse.org/windowbuilder/lastgoodbuild/features/org.eclipse.wb.core.java.feature_1.9.7.202201250914.jar.
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-01-26 18:19:10.394
+!MESSAGE Error while reading from repository: https://download.eclipse.org/windowbuilder/lastgoodbuild/plugins/org.eclipse.wb.core.lib_1.9.1.202201250914.jar.
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-01-26 18:19:10.394
+!MESSAGE Error while reading from repository: https://download.eclipse.org/windowbuilder/lastgoodbuild/plugins/org.eclipse.wb.core.ui_1.10.0.202201250914.jar.
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-01-26 18:19:10.394
+!MESSAGE Error while reading from repository: https://download.eclipse.org/windowbuilder/lastgoodbuild/features/org.eclipse.wb.core.ui.feature_1.9.7.202201250914.jar.
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-01-26 18:19:10.394
+!MESSAGE Error while reading from repository: https://download.eclipse.org/windowbuilder/lastgoodbuild/plugins/org.eclipse.wb.doc.user_1.9.1.202201250914.jar.
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-01-26 18:19:10.394
+!MESSAGE Error while reading from repository: https://download.eclipse.org/windowbuilder/lastgoodbuild/features/org.eclipse.wb.doc.user.feature_1.9.7.202201250914.jar.
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-01-26 18:19:10.394
+!MESSAGE Error while reading from repository: https://download.eclipse.org/windowbuilder/lastgoodbuild/plugins/org.eclipse.wb.layout.group_1.9.1.202201250914.jar.
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-01-26 18:19:10.394
+!MESSAGE Error while reading from repository: https://download.eclipse.org/windowbuilder/lastgoodbuild/features/org.eclipse.wb.layout.group.feature_1.9.7.202201250914.jar.
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-01-26 18:19:10.394
+!MESSAGE Error while reading from repository: https://download.eclipse.org/windowbuilder/lastgoodbuild/plugins/org.eclipse.wb.os_1.9.1.202201250914.jar.
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-01-26 18:19:10.394
+!MESSAGE Error while reading from repository: https://download.eclipse.org/windowbuilder/lastgoodbuild/plugins/org.eclipse.wb.os.win32_1.9.1.202201250914.jar.
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-01-26 18:19:10.394
+!MESSAGE Error while reading from repository: https://download.eclipse.org/windowbuilder/lastgoodbuild/plugins/org.eclipse.wb.rcp_1.9.1.202201250914.jar.
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-01-26 18:19:10.394
+!MESSAGE Error while reading from repository: https://download.eclipse.org/windowbuilder/lastgoodbuild/plugins/org.eclipse.wb.rcp.SWT_AWT_1.9.1.202201250914.jar.
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-01-26 18:19:10.394
+!MESSAGE Error while reading from repository: https://download.eclipse.org/windowbuilder/lastgoodbuild/features/org.eclipse.wb.rcp.SWT_AWT_support_1.9.7.202201250914.jar.
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-01-26 18:19:10.394
+!MESSAGE Error while reading from repository: https://download.eclipse.org/windowbuilder/lastgoodbuild/plugins/org.eclipse.wb.rcp.databinding_1.9.1.202201250914.jar.
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-01-26 18:19:10.394
+!MESSAGE Error while reading from repository: https://download.eclipse.org/windowbuilder/lastgoodbuild/plugins/org.eclipse.wb.rcp.databinding.emf_1.9.1.202201250914.jar.
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-01-26 18:19:10.394
+!MESSAGE Error while reading from repository: https://download.eclipse.org/windowbuilder/lastgoodbuild/plugins/org.eclipse.wb.rcp.doc.user_1.9.1.202201250914.jar.
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-01-26 18:19:10.394
+!MESSAGE Error while reading from repository: https://download.eclipse.org/windowbuilder/lastgoodbuild/features/org.eclipse.wb.rcp.doc.user.feature_1.9.7.202201250914.jar.
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-01-26 18:19:10.394
+!MESSAGE Error while reading from repository: https://download.eclipse.org/windowbuilder/lastgoodbuild/features/org.eclipse.wb.rcp.feature_1.9.7.202201250914.jar.
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-01-26 18:19:10.394
+!MESSAGE Error while reading from repository: https://download.eclipse.org/windowbuilder/lastgoodbuild/plugins/org.eclipse.wb.rcp.nebula_1.9.1.202201250914.jar.
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-01-26 18:19:10.394
+!MESSAGE Error while reading from repository: https://download.eclipse.org/windowbuilder/lastgoodbuild/plugins/org.eclipse.wb.rcp.swing2swt_1.9.1.202201250914.jar.
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-01-26 18:19:10.394
+!MESSAGE Error while reading from repository: https://download.eclipse.org/windowbuilder/lastgoodbuild/plugins/org.eclipse.wb.runtime_1.9.1.202201250914.jar.
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-01-26 18:19:10.394
+!MESSAGE Error while reading from repository: https://download.eclipse.org/windowbuilder/lastgoodbuild/plugins/org.eclipse.wb.runtime.lib_1.9.1.202201250914.jar.
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-01-26 18:19:10.394
+!MESSAGE Error while reading from repository: https://download.eclipse.org/windowbuilder/lastgoodbuild/plugins/org.eclipse.wb.swing_1.9.1.202201250914.jar.
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-01-26 18:19:10.394
+!MESSAGE Error while reading from repository: https://download.eclipse.org/windowbuilder/lastgoodbuild/plugins/org.eclipse.wb.swing.FormLayout_1.9.1.202201250914.jar.
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-01-26 18:19:10.395
+!MESSAGE Error while reading from repository: https://download.eclipse.org/windowbuilder/lastgoodbuild/plugins/org.eclipse.wb.swing.FormLayout.lib_1.9.1.202201250914.jar.
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-01-26 18:19:10.395
+!MESSAGE Error while reading from repository: https://download.eclipse.org/windowbuilder/lastgoodbuild/plugins/org.eclipse.wb.swing.MigLayout_1.9.1.202201250914.jar.
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-01-26 18:19:10.395
+!MESSAGE Error while reading from repository: https://download.eclipse.org/windowbuilder/lastgoodbuild/plugins/org.eclipse.wb.swing.MigLayout.lib_1.9.1.202201250914.jar.
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-01-26 18:19:10.395
+!MESSAGE Error while reading from repository: https://download.eclipse.org/windowbuilder/lastgoodbuild/plugins/org.eclipse.wb.swing.databinding_1.9.1.202201250914.jar.
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-01-26 18:19:10.395
+!MESSAGE Error while reading from repository: https://download.eclipse.org/windowbuilder/lastgoodbuild/plugins/org.eclipse.wb.swing.doc.user_1.9.1.202201250914.jar.
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-01-26 18:19:10.395
+!MESSAGE Error while reading from repository: https://download.eclipse.org/windowbuilder/lastgoodbuild/features/org.eclipse.wb.swing.doc.user.feature_1.9.7.202201250914.jar.
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-01-26 18:19:10.395
+!MESSAGE Error while reading from repository: https://download.eclipse.org/windowbuilder/lastgoodbuild/features/org.eclipse.wb.swing.feature_1.9.7.202201250914.jar.
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-01-26 18:19:10.395
+!MESSAGE Error while reading from repository: https://download.eclipse.org/windowbuilder/lastgoodbuild/plugins/org.eclipse.wb.swing.java6_1.9.1.202201250914.jar.
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-01-26 18:19:10.395
+!MESSAGE Error while reading from repository: https://download.eclipse.org/windowbuilder/lastgoodbuild/plugins/org.eclipse.wb.swing.jsr296_1.9.1.202201250914.jar.
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-01-26 18:19:10.395
+!MESSAGE Error while reading from repository: https://download.eclipse.org/windowbuilder/lastgoodbuild/plugins/org.eclipse.wb.swt_1.9.1.202201250914.jar.
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-01-26 18:19:10.395
+!MESSAGE Error while reading from repository: https://download.eclipse.org/windowbuilder/lastgoodbuild/features/org.eclipse.wb.swt.feature_1.9.7.202201250914.jar.
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-01-26 18:19:10.395
+!MESSAGE Error while reading from repository: https://download.eclipse.org/windowbuilder/lastgoodbuild/plugins/org.eclipse.wb.swt.widgets.baseline_1.9.1.202201250914.jar.
